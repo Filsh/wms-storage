@@ -1,0 +1,30 @@
+{
+    "name": "filsh/yii2-storage",
+    "description": "Module for resource storage",
+    "keywords": ["yii", "extension", "module"],
+    "homepage": "https://github.com/filsh/yii2-storage",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "email": "imaliy.filsh@gmail.com",
+        "source": "https://github.com/filsh/yii2-storage"
+    },
+    "authors": [
+        {
+            "name": "Igor Maliy",
+            "email": "imaliy.filsh@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "filsh\\storage\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "filsh\\storage\\Bootstrap"
+    }
+}
